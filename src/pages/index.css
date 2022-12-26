@@ -64,3 +64,18 @@ main h1 {
   /* font-family: 'Anton', sans-serif; */
   /* font-family: 'Paytone One', sans-serif; */
 }
+
+
+@media screen and (max-width: 768px) {
+  main .sup {
+    font-size: 6vw;
+  }
+
+  main .meta {
+    font-size: 5vw;
+  }
+
+  main h1 {
+    font-size: 16vw;
+  }
+}
