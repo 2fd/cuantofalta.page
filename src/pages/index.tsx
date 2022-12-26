@@ -20,6 +20,7 @@ const IndexPage = () => {
   const days = useDaysDiff(now, '2023-11-26 00:00:00')
 
   return <main>
+    <audio src="/cronica.mp3" autoPlay loop  onPlay={(e) => e.currentTarget.volume = 0.4 } />
     <div className="sup"><i>REITERAMOS</i></div>
     <div className="meta">
       <span>{now.format('HH:mm')}</span>
@@ -42,6 +43,7 @@ export const Head = () => {
   return <Seo title="Cuánto falta para el casorio?" description={daysTo(days)}>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+    <link rel="prefetch" href="/cronica.mp3" crossOrigin="true" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"></link>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
