@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "dayjs": "^1.11.7",
-    "gatsby": "^5.3.2",
+    "gatsby": "^5.8.0",
     "gatsby-plugin-image": "^3.3.2",
     "gatsby-plugin-manifest": "^5.3.1",
     "gatsby-plugin-sharp": "^5.3.2",
